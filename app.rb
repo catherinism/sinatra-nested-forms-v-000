@@ -4,7 +4,7 @@ module FormsLab
   class App < Sinatra::Base
 
     get '/' do
-      let's navigate to the '/new'
+      "let's navigate to the '/new'"
       erb :root
     end
 
